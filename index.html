@@ -1,1 +1,101 @@
-<h1>tessssssssssssssssssssst</h1>
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8" />
+	<title>Design</title>  
+	<link rel="stylesheet" type="text/css" href="style/index.css" />
+  </head>
+  
+  <body>
+  <!--The header of the index page.-->
+	<div id="header">
+	
+	  <div id="nav">
+	    <div  id="mylogo">
+	      <img src="img/1011.png" />
+		</div>
+		
+	    <ul id="navbar">
+		   <li><a href="index.html" class="navlink">首页</a></li>
+		   <li><a href="gallery.html" class="navlink">服务</a></li>
+		   <li><a href="about.html" class="navlink">团队</a></li>
+		</ul>
+	  </div>
+	  <a href="https://github.com/"  id="githublogo"><img src="img/icon-github.png" /></a>
+	</div>
+	
+	<div id="mainsection">
+	    <!--首页背景大图-->
+	    <div id="indexbigimg">
+		  <div id="formaltext">
+		    <h3>简介</h3>
+		    <p>在医疗监护领域，本项目是“监管者”能在患者突发意外时识别护工肉眼难以分辨的危机状态；在医疗康复领域，它是“小助理”，帮助行动不便的患者精准控制机械臂，成为进行物品拾取、辅助喂食等生活功能，尤其是术后语言功能受损或有阿尔兹海默症等基础病的患者。</p>
+		  </div>
+		</div>
+		
+		<!--首页三列等高-->
+		<div id="threeequalheight">
+	       <div id="leftsection" class="equalheight">
+		      <div class="inner">
+		         <img src="img/290.jpg" class="equalimg" />
+			     <p>1111111111111111111111111111111111111111</p>
+
+			  </div>
+		   </div>
+		   
+		   <div id="centersection" class="equalheight">
+		      <div class="inner">
+		        <img src="img/293.jpg" class="equalimg" />
+			    <p>22222222222222222222222222222222222222</p>
+			  </div>
+		   </div>
+		
+		   <div id="rightsection" class="equalheight">
+		     <div class="inner">
+		       <img src="img/291.jpg" class="equalimg" />
+			   <p>33333333333333333333333333333333333333</p>
+			 </div>
+		   </div>
+	    </div>
+		
+		<!--首页自我介绍-->
+		<div id="selfcontiner">
+		   <img src="img/167.png" id="headpic" />
+		   <div id="selfintruction">
+		      <h2>视频demo</h2>
+			  <p>这里需要插入一一一一一一一一一一一一一一一一一一一一一一一一一一一一段演示视频。</p>
+		   </div>
+		</div>
+	</div>
+
+	<!--The footer of the index page.-->
+	<div id="footer">
+	   <ul id="footernavbar">
+	     <li><a href="index.html" class="navlink">首页</a></li>
+		 <li><a href="gallery.html" class="navlink">服务</a></li>
+		 <li><a href="about.html" class="navlink">团队</a></li>
+	   </ul>
+
+	   <div id="footermassage">
+	        <p>版权信息</p>
+			<a href="https://github.com/"><img src="img/icon-github.png" /></a>
+	   </div>
+	   
+	</div>
+	
+	
+    <script>
+       function hiddenGithub() {
+	      var html = document.documentElement;
+		  var githublogo = document.getElementById("githublogo");
+		  
+		  if(html.clientWidth<1050) {
+		    githublogo.style.display = "none";
+		  } else {
+		    githublogo.style.display = "block";
+		  }
+	   }
+	   window.onresize=function() {hiddenGithub();};
+    </script>
+  </body>
+</html>
