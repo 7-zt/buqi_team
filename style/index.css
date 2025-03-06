@@ -111,23 +111,27 @@ a.referencelink{
 
 #formaltext {
     position: absolute;
-    width: 380px;
-    bottom: 0;
+    width: 480px;
+    bottom: 180px; /* 修改为向上移动50px */
     right: 193px;
     padding: 10px 30px 30px 30px;
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
 }
 
 #formaltext h3 {
-    font-size: 40px;
-    font-weight: normal;
-    text-align: right;
-    margin-bottom: 15px;
+    font-size: 46px; /* 标题字体大小 */
+    margin-bottom: 15px; /* 标题与段落的间距 */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 文字阴影 */
+    font-family: "华文行楷", "行书", "楷体", sans-serif; /* 使用行书风格的字体 */
+    font-weight: normal; /* 不加粗，行书本身已经足够有表现力 */
 }
 
 #formaltext p {
-    font-size: 28px;
-    line-height: 150%;
+    font-size: 30px; /* 段落字体大小 */
+    line-height: 2; /* 行间距 */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 文字阴影 */
+    font-weight: normal; /* 不加粗，楷书本身已经足够有表现力 */
+    font-family: "华文楷体", "楷体", "宋体", sans-serif; /* 使用有笔锋的楷书字体 */
 }
 
 /*****正文部分三列等高样式******/
@@ -185,15 +189,16 @@ a.referencelink{
 }
 #selfintruction h2{
 	font-weight: normal;
-	font-size: 20px;
+	font-size: 80px;
 	font-family: Future"Century, Gothic", AppleGothic, sans-serif;
 	margin-bottom: 50px;
+	line-height: 1%;
 	text-align: center;
 }
 #selfintruction p{
 	width: 600px;
 	font-size: 14px;
-	line-height: 170%;
+	line-height: 120%;
 	text-indent: 2em;
 	margin: auto;
 }
