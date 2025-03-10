@@ -105,7 +105,7 @@ a.referencelink{
 	position: relative;
 	background-image: url(../img/1.jpg);
 	height: 587px;
-	color: #000000;
+	color: #D3D3D3;
 	opacity: 1;
 }
 
@@ -115,7 +115,6 @@ a.referencelink{
     bottom: 280px; /* 修改为向上移动50px */
     right: 940px;
     padding: 10px 30px 30px 30px;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
 }
 
 #formaltext h3 {
@@ -169,7 +168,7 @@ a.referencelink{
 /*****正文部分自我介绍样式******/
 #selfcontiner{
 	position: relative;
-	background-color: #FFFFFF;
+	background-color: #D3D3D3;
 
 	padding-top: 160px;
 	padding-bottom: 160px;
