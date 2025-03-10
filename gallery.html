@@ -80,6 +80,19 @@
         color: black; /* 未激活时字体颜色 */
       }
 
+      /* 添加状态栏图片样式 */
+      .statusbar-image {
+        width: 200px; /* 图片宽度与状态栏一致 */
+        height: auto; /* 图片高度自适应 */
+        margin-bottom: 10px; /* 图片与状态栏的间隔 */
+      }
+
+      /* 状态栏和图片组合的容器 */
+      .statusbar-group {
+        text-align: center; /* 居中对齐 */
+        margin: 0 auto; /* 自动居中 */
+      }
+
       /* 添加底部菜单栏样式（如果需要） */
       #footer {
         margin-top: 70px; /* 与状态栏的间隔 */
@@ -89,6 +102,7 @@
   
   <body>
     <!--The header of the index page.-->
+
     <div id="header">
       <div id="nav">
         <div id="mylogo">
@@ -110,16 +124,30 @@
         <!-- 添加艺术字 -->
         <div class="subscription-title">订阅服务</div>
         
-        <!-- 状态栏 -->
+        <!-- 状态栏和图片组合 -->
         <div class="statusbar-container">
-          <div id="status1" class="statusbar status-off">
-            未激活
+          <!-- 状态栏1 -->
+          <div class="statusbar-group">
+            <img src="img/2-1.jpg" class="statusbar-image" alt="Status Image 1" />
+            <div id="status1" class="statusbar status-off">
+              未激活
+            </div>
           </div>
-          <div id="status2" class="statusbar status-off">
-            未激活
+          
+          <!-- 状态栏2 -->
+          <div class="statusbar-group">
+            <img src="img/2-2.jpg" class="statusbar-image" alt="Status Image 2" />
+            <div id="status2" class="statusbar status-off">
+              未激活
+            </div>
           </div>
-          <div id="status3" class="statusbar status-off">
-            未激活
+          
+          <!-- 状态栏3 -->
+          <div class="statusbar-group">
+            <img src="img/2-3.jpg" class="statusbar-image" alt="Status Image 3" />
+            <div id="status3" class="statusbar status-off">
+              未激活
+            </div>
           </div>
         </div>
         
@@ -133,6 +161,7 @@
     </div>
     
     <!--The footer of the index page.-->
+
     <div id="footer">
       <ul id="footernavbar">
         <li><a href="index.html" class="navlink">首页</a></li>
